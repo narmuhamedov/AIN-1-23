@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class FilmModel(models.Model):
     GENRE = (
         ('Horror', 'Horror'),
@@ -35,7 +36,6 @@ class Slider(models.Model):
 
     def __str__(self):
         return self.slider
-
 
 
 class ReviewFilmModel(models.Model):
